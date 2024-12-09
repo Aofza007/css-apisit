@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  color: #ffffff;
+  
+  
+}
+body {
+        font-family: "IBM Plex Sans Thai", sans-serif;
+        font-weight: 300;
+        background-color: #c6b7fd;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1,.taviraj-semibold {
+  font-family: "Taviraj", serif;
+  font-weight: 600;
+  font-style: center;
+}
+    h2,.itim-regular {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: center;
+}
+
+    /* ปรับรูปภาพ */
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        /* ทำให้รูปภาพเป็นวงกลม */
+        margin: auto;
+        display: block;
+        border: 3px solid #ddd;
+        /* เพิ่มเส้นขอบสีเทาอ่อน */
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        /* เพิ่มเงาเล็กน้อย */
+    }
+
+    p {
+        font-family: "IBM Plex Sans Thai", sans-serif;
+        font-weight: 400;
+        /* Light */
+        text-align: center;
+        color: #666;
+    }
+
+    .section {
+        margin-bottom: 20px;
+    }
+
+    .section h3 {
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 5px;
+    }
+
+    .section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .section ul li {
+        font-family: "IBM Plex Sans Thai", sans-serif;
+        font-weight: 400;
+        /* Light */
+        margin-bottom: 10px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color:#ffffff;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1)
+      border-top 5px solid #45a049;
+      /**ขอบสีส้มที่ด้านบน*/
+    }
+    button {
+        font-family: "Merriweather", sans-serif;
+        font-weight: 500;
+        /* Light */
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+	table {
+      width: 80%;
+      border-collapse: collapse; /* รวมเส้นขอบของเซลล์ */
+    }
+    th {
+    	border: 1px solid rgb(255, 255, 255); /* เส้นขอบของเซลล์ */
+      padding: 8px; /* ระยะห่างภายในเซลล์ */
+      text-align: center; /* จัดข้อความให้อยู่กลาง */
+    }
+
+    td {
+      border: 1px solid rgb(255, 255, 255); /* เส้นขอบของเซลล์ */
+      padding: 8px; /* ระยะห่างภายในเซลล์ */
+      text-align: center; /* จัดข้อความให้อยู่กลาง */
+    }
+    th {
+      background-color: none; /* สีพื้นหลังของหัวข้อ */
+    }
